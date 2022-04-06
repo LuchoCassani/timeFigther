@@ -4,30 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackground"
+    android:background="@drawable/ic_launcher_background"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/gameScoreTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="109dp"
+        android:layout_height="21dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@color/material_dynamic_neutral0"
+        android:background="@drawable/ic_launcher_background"
         android:text="@string/yourScore"
-        android:textColor="#000000"
+        android:textColor="@color/textColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/timeLeftTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="109dp"
+        android:layout_height="20dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@color/material_dynamic_neutral0"
+        android:background="@drawable/ic_launcher_background"
         android:text="@string/timeLeft"
-        android:textColor="#000000"
+        android:textColor="@color/textColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,9 +35,10 @@
         android:id="@+id/tapMeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/buttonColor"
+        android:background="@color/button"
+        android:backgroundTint="#F4EFEF"
         android:text="@string/tapMe"
-        android:textColor="#BBDEFB"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

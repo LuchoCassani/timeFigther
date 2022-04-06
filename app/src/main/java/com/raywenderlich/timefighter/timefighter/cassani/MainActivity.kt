@@ -20,13 +20,13 @@ class MainActivity : AppCompatActivity() {
 
     private var gameStarted = false
     private lateinit var countDownTimer: CountDownTimer
-    private var initialCountDown: Long = 60000
+    private var initialCountDown: Long = 15000
     private var countDownInterval: Long = 1000
 
     private lateinit var tapMeButton: Button
     private lateinit var gameScoreTextView: TextView
     private lateinit var timeLeftTextView: TextView
-    private var timeLeftOnTimer: Long = 60000
+    private var timeLeftOnTimer: Long = 15000
 
     companion object {
         private val TAG = MainActivity::class.java.simpleName
